@@ -132,7 +132,7 @@ class LunarMonth {
   @override
   String toString() {
     String month = LunarUtil.MONTH[_month.abs()];
-    return '$_year年${isLeap() ? '闰' : ''}$month月($_dayCount)天';
+    return '$_year年${isLeap() ? '閏' : ''}$month月($_dayCount)天';
   }
 
   LunarMonth next(int n) {

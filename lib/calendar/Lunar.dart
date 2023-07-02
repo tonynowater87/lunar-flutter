@@ -375,7 +375,7 @@ class Lunar {
   }
 
   String getMonthInChinese() =>
-      (_month < 0 ? '闰' : '') + LunarUtil.MONTH[_month.abs()];
+      (_month < 0 ? '閏' : '') + LunarUtil.MONTH[_month.abs()];
 
   String getDayInChinese() => LunarUtil.DAY[_day];
 

@@ -531,7 +531,7 @@ class Solar {
   String toFullString() {
     String s = toYmdHms();
     if (isLeapYear()) {
-      s += ' 闰年';
+      s += ' 閏年';
     }
     s += ' 星期' + getWeekInChinese();
     List<String> festivals = getFestivals();
